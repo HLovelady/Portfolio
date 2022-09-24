@@ -1,0 +1,145 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: lighter;
+background-color: var(--very-light-gray);
+}
+
+:root {
+--dark-green: #617060;
+--very-light-gray: #EDEDED;
+}
+
+::-webkit-scrollbar {
+    width:10px  
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--dark-green)
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    font-size: 300%
+}
+
+header, h1, nav, nav ul, nav a{
+    color: var(--very-light-gray);
+    background-color: var(--dark-green);
+}
+
+nav ul, p {
+    font-size: 125%
+}
+
+section, footer {
+    color: var(--dark-green);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    min-width: 400px;
+}
+
+nav a {
+  
+}
+
+nav a:hover {
+background-color: var(--very-light-gray);
+color: var(--dark-green);
+font-weight: bold;
+}
+
+nav a:active {
+
+}
+
+.circular--portrait { 
+    position: relative; 
+    width: 250px; 
+    height: 250px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    margin: 1%;
+} 
+
+.circular--portrait img { 
+    width: 100%; 
+    height: auto; 
+    /* flip horizontally */
+    transform: scaleX(-1);
+}
+
+h2 {
+    font-size: 200%;
+    text-align: right;
+    margin: 1%;
+}
+
+.about, p {
+    display:inline; 
+    vertical-align:middle;
+}
+
+p, footer ul {
+margin-left: 100px;
+}
+
+article {
+
+}
+
+section a {
+    padding: .5%;
+    padding-right: 0;
+    align-items: center;
+}
+
+footer ul, footer a{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--dark-green);
+    margin: 100px;
+}
+
+.contact, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a:hover {
+    background-color: var(--dark-green);
+    color: var(--very-light-gray);
+    font-weight: bold;
+    }
+
+@media screen and (max-width: 768px) {
+    nav{
+      flex-direction: column;
+    }   
+}
+
+@media screen and (max-width: 390px) {
+    nav{
+      flex-direction: column;
+    }
+    h2 a{
+        width: 350px
+    }
