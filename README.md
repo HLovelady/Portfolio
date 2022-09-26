@@ -48,7 +48,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Screenshot of Webpage
-[<img src="./Assets/Images/Portfolio.jpg">](https://chatterrr.vercel.app/)
+[<img src="./Assets/Images/Portfolio.jpg">]
 
 
 ## Deployed Application
+https://hlovelady.github.io/Portfolio/
