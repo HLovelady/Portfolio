@@ -59,7 +59,7 @@ This was attempted but not fully complete.
 
 
 ## Screenshot of Webpage
-<img src="./Assets/Images/Portfolio.jpg">
+<img src="./Assets/Images/Portfolio2.jpg">
 
 
 ## Deployed Application
